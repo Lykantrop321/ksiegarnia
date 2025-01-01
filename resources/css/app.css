@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #FFF8F0; /* jasny kremowy kolor tła */
+    color: #5C4033; /* brązowy kolor tekstu */
+    font-family: 'Arial', sans-serif; /* czcionka Arial */
+}
+
+a {
+    color: #D2691E; /* cynamonowy kolor linków */
+}
+
+button {
+    background-color: #E9967A; /* jasny rdzawy kolor przycisków */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #DEB887; /* ciemniejszy jasny brązowy kolor przycisków przy najechaniu */
+}
+
+/* Stylizacja formularzy, nagłówków itd. */
+form {
+    background-color: #FDF5E6; /* bardzo jasny beż tła formularza */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea {
+    border: 2px solid #DEB887; /* brązowy kolor obramowania inputów */
+    padding: 8px;
+    border-radius: 4px;
+    width: 100%; /* pełna szerokość w ramach kontenera */
+}
+
+input[type="submit"] {
+    background-color: #D2691E; /* cynamonowy kolor przycisku submit */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #E9967A; /* jasny rdzawy kolor przycisku submit przy najechaniu */
+}
